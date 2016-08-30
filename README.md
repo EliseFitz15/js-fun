@@ -75,10 +75,9 @@ app/templates/todos.hbs
 <h2>List of things to do today...</h2>
 ```
 
-In your browser, open http://localhost:4200/todos. You should see the <h2> you put in the todos.hbs template, right below the <h1> from our application.hbs template.
+In your browser, open http://localhost:4200/todos. You should see the `<h2>` you put in the `todos.hbs` template, right below the `<h1>` from our `application.hbs` template.
 
 Now that we've got the todos template rendering, let's give it some data to render.
-
 
 ### Add Data to Render in Template
 
@@ -113,5 +112,7 @@ In our `app/templates/todos.hbs` let's make the following update:
 If we want to iterate through JS objects rather than just strings we could simply update the data form we are sending to the Template and the way we iterate through:
 
 ```
-[{ item: 'Catch all the Pokemon', complete: false}, { item: 'Become a JavaScript Master', complete: true}, {item: 'Get my React.js on', complete: false}, { item: 'Hangout with Tomster', complete: true}];
+...
+return [{ item: 'Catch all the Pokemon', complete: false}, { item: 'Become a JavaScript Master', complete: true}, {item: 'Get my React.js on', complete: false}, { item: 'Hangout with Tomster', complete: true}];
+...
 ```
