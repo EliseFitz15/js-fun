@@ -116,3 +116,8 @@ If we want to iterate through JS objects rather than just strings we could simpl
 return [{ item: 'Catch all the Pokemon', complete: false}, { item: 'Become a JavaScript Master', complete: true}, {item: 'Get my React.js on', complete: false}, { item: 'Hangout with Tomster', complete: true}];
 ...
 ```
+
+Resources to Continue Learning Ember.js
+- [Ember Guides](https://guides.emberjs.com/v2.7.0/)
+- [YoEmber](http://yoember.com/)
+- [Rock and Roll with Ember](http://balinterdi.com/rock-and-roll-with-emberjs/)
